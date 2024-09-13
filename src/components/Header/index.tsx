@@ -46,8 +46,8 @@ const Header = () => {
           : "absolute bg-transparent"
           }`}
       >
-        <div className="container">
-          <div className="relative -mx-4 flex items-center justify-between">
+        <div className="container flex justify-center">
+          <div className="relative -mx-4 flex justify-center">
             <div className="w-60 max-w-full px-4 xl:mr-12">
               <Link
                 href="/"
@@ -55,14 +55,14 @@ const Header = () => {
                   } `}
               >
                 <Image
-                  src="/images/logo/logo-2.svg"
+                  src="/images/logo/logo-2.png"
                   alt="logo"
                   width={140}
                   height={30}
                   className="w-full dark:hidden"
                 />
                 <Image
-                  src="/images/logo/logo.svg"
+                  src="/images/logo/logo-2.png"
                   alt="logo"
                   width={140}
                   height={30}

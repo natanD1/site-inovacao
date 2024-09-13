@@ -20,8 +20,11 @@ export default function RootLayout({
 
       <body className={`bg-[#121212] ${inter.className}`}>
         <Providers>
-          <Header />
-          {children}
+          <TracingBeam>
+            <Header />
+            {children}
+            {/* <BackgroundBeams /> */}
+          </TracingBeam>
           <Footer />
           <ScrollToTop />
         </Providers>
@@ -30,4 +33,6 @@ export default function RootLayout({
   );
 }
 
-import { Providers } from "./providers";
+import { Providers } from "./providers"; import { TracingBeam } from "@/components/ui/tracing-beam";
+import { BackgroundBeams } from "@/components/ui/background-beams";
+
