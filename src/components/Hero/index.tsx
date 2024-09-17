@@ -19,7 +19,7 @@ const Hero = () => {
       <div className="container">
         <div className="flex flex-col items-center justify-center h-[40rem]">
           <p className="text-neutral-600 dark:text-neutral-200 text-lg sm:text-lg">
-            Rafael favaro
+            Inovação e Tecnologia
           </p>
           <TypewriterEffectSmooth words={words} />
         </div>
