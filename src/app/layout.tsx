@@ -23,8 +23,8 @@ export default function RootLayout({
           <TracingBeam>
             <Header />
             {children}
-            {/* <BackgroundBeams /> */}
           </TracingBeam>
+          <BackgroundBeams />
           <Footer />
           <ScrollToTop />
         </Providers>
